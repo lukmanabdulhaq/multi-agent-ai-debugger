@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-10-17T12:11:29.071Z",
+    "primaryProvider": "Groq",
+    "durationMs": 2,
+    "success": true,
+    "trace": [
+      "[TRACE] Received payload from primary provider: Groq",
+      "[PARSE FAIL] JSON Parsing Error: Unexpected token 'H', \"Here is th\"... is not valid JSON",
+      "[FAILOVER] Primary failed. Routing structural repair to backup debugger: Gemini...",
+      "[SUCCESS] Gemini successfully repaired and validated the pipeline payload."
+    ],
+    "output": {
+      "clientName": "Sarah Jenkins",
+      "intent": "high",
+      "budget": 7500,
+      "summary": "Interested in downtown office space."
+    }
+  },
+  {
+    "timestamp": "2026-10-17T12:14:38.755Z",
+    "primaryProvider": "Groq",
+    "durationMs": 5,
+    "success": true,
+    "trace": [
+      "[TRACE] Received payload from primary provider: Groq",
+      "[PARSE FAIL] JSON Parsing Error: Unexpected token 'H', \"Here is th\"... is not valid JSON",
+      "[FAILOVER] Primary failed. Routing structural repair to backup debugger: Gemini...",
+      "[SUCCESS] Gemini successfully repaired and validated the pipeline payload."
+    ],
+    "output": {
+      "clientName": "Sarah Jenkins",
+      "intent": "high",
+      "budget": 7500,
+      "summary": "Interested in downtown office space."
+    }
+  }
+]
